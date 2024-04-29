@@ -1,0 +1,137 @@
+.App {
+  display: flex;
+}
+
+.card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.imageContainer img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.textContainer h2 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.textContainer p {
+  color: #666;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(254, 205, 81, 0.438);
+  width: max-content;
+  color: #666;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.listings {
+  width: 50%;
+  overflow: auto;
+}
+
+.listing {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: flex;
+}
+
+.listing:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.listing img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.property-list {
+  width: 70%; 
+}
+
+.property-card {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.property-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.icon img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card .content {
+  display: flex;
+}
+
+.imageContainer {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.textContainer {
+  flex: 2;
+}
+
+.card .content {
+  display: flex;
+}
+
+.features .feature img,
+.icons .icon img {
+  width: 20px;
+  height: 20px;
+}
+
