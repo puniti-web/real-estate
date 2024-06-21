@@ -10,7 +10,7 @@ import avatar from "../images/img.png"
 const steps = [
     {
       id: '0',
-      message: 'Welcome to Gharaana!',
+      message: 'Welcome to Spaces by Parth Sharma!',
       trigger: '1',
     },
     {

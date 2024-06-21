@@ -1,3 +1,0 @@
-"# GharaanaByJugraunaq" 
-"# GharaanaByJugraunaq" 
-"# GharaanaByJugraunaq" 
