@@ -11,8 +11,8 @@ const Header = () => {
       <header>
         <div className='container flex'>
           <div className='logo'>
-            <h3>Spaces</h3>
-            <h5>By Parth Sharma</h5>
+            <h3>Gharaana</h3>
+            <h5>By Jugraunaq Singh</h5>
             {/* <img src='./images/logo.png' alt='' /> */}
           </div>
           <div className='nav'>
@@ -28,7 +28,7 @@ const Header = () => {
             <h4>
               <span>2</span> My List
             </h4>
-            <a href="https://parthsharma30.github.io/personal_portfolio">
+            <a href=" https://jugraunaqsingh.github.io/jugraunaqportfolio/">
             <button className='btn1'>
               <i className='fa fa-sign-out'></i> Sign In
             </button>
