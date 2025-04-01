@@ -1,7 +1,6 @@
 import React from "react"
 import { footer } from "../../data/Data"
 import "./footer.css"
-
 const Footer = () => {
   return (
     <>
@@ -16,7 +15,6 @@ const Footer = () => {
           </div>
         </div>
       </section>
-
       <footer>
         <div className='container'>
           <div className='box'>
@@ -30,7 +28,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
           {footer.map((val) => (
             <div className='box'>
               <h3>{val.title}</h3>
@@ -44,7 +41,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2024 Spaces by Parth Sharma</span>
+        <span>© 2025 Spaces</span>
       </div>
     </>
   )
